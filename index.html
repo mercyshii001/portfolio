@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercy Ndung'u - IT Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Mercy Ndung'u</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1>Mercy Ndung'u</h1>
+            <p class="hero-subtitle">Full Stack Developer & IT Professional</p>
+            <p class="hero-description">
+                I craft elegant, user-friendly web solutions and bring innovative ideas to life through code.
+                Specializing in full-stack development with a passion for creating seamless digital experiences.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="hero-btn primary">View My Work</a>
+                <a href="#contact" class="hero-btn secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2><i class="fas fa-user"></i> About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a passionate IT professional with expertise in software development and system administration. With a strong foundation in technology and a drive for innovation, I help businesses achieve their digital transformation goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2><i class="fas fa-code"></i> Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skills-visual">
+                <div class="skills-image">
+                    <img src="images/skills/coding.jpg" alt="Programming" class="parallax-img">
+                </div>
+                <div class="video-container">
+                    <div class="video-cover active">
+                        <img src="images/skills/webdev.jpg" alt="Web Development Video">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="video-title">
+                            <h3>My Development Journey</h3>
+                            <p>Watch how I approach web development projects</p>
+                        </div>
+                    </div>
+                    <iframe 
+                        id="skillsVideo"
+                        src="https://www.youtube.com/embed/l9nh1l8ZIJQ?autoplay=0&mute=1"
+                        title="Web Development"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skill-content">
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                            <span>JavaScript</span>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                            <span>Python</span>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                            <span>HTML5</span>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                            <span>CSS3</span>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Technologies</h3>
+                    </div>
+                    <div class="skill-content">
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                            <span>React</span>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                            <span>Node.js</span>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                            <span>MySQL</span>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                            <span>MongoDB</span>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2><i class="fas fa-project-diagram"></i> Featured Projects</h2>
+        <div class="project-grid">
+            <!-- E-commerce Project -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/projects/ecommerce.jpg" alt="E-commerce Platform">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+                <h3>E-Commerce Platform</h3>
+                <p>A full-stack e-commerce solution built with React and Node.js</p>
+                <div class="project-links">
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+
+            <!-- Task Management App -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/projects/taskmanager.jpg" alt="Task Management App">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+                <h3>Task Management System</h3>
+                <p>A collaborative task management tool with real-time updates</p>
+                <div class="project-links">
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+
+            <!-- Weather Dashboard -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/projects/weather.jpg" alt="Weather Dashboard">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+                <h3>Weather Dashboard</h3>
+                <p>A web-based weather dashboard built with React and OpenWeatherMap API</p>
+                <div class="project-links">
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+
+            <!-- Portfolio Website -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/projects/portfolio.jpg" alt="Portfolio Website">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website built with HTML, CSS, and JavaScript</p>
+                <div class="project-links">
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2><i class="fas fa-envelope"></i> Get in Touch</h2>
+        <div class="contact-content">
+            <div class="contact-text">
+                <h3>Let's Work Together!</h3>
+                <p>I'm always interested in hearing about new projects and opportunities.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h4>Email</h4>
+                    <a href="mailto:mercyshii@gmail.com" class="contact-link">
+                        mercyshii@gmail.com
+                        <span class="hover-text">Click to send email</span>
+                    </a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h4>Phone</h4>
+                    <a href="tel:+254743315049" class="contact-link">
+                        +254 743 315 049
+                        <span class="hover-text">Click to call</span>
+                    </a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h4>LinkedIn</h4>
+                    <a href="#" target="_blank" class="contact-link">
+                        Connect on LinkedIn
+                        <span class="hover-text">View Profile</span>
+                    </a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h4>GitHub</h4>
+                    <a href="#" target="_blank" class="contact-link">
+                        View My Projects
+                        <span class="hover-text">Check My Code</span>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Send Me a Message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Mercy Ndung'u</h3>
+                <p>Full Stack Developer & IT Professional</p>
+                <div class="social-icons">
+                    <a href="https://github.com/mercyndunguu" target="_blank" rel="noopener noreferrer" class="social-icon github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mercy-ndungu-" target="_blank" rel="noopener noreferrer" class="social-icon linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.facebook.com/mercy.ndungu" target="_blank" rel="noopener noreferrer" class="social-icon facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://wa.me/254743315049" target="_blank" rel="noopener noreferrer" class="social-icon whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <nav class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i> mercyshii@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +254 743 315 049</p>
+                <p><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Mercy Ndung'u. All rights reserved.</p>
+            <p>Made with <i class="fas fa-heart"></i> in Nairobi</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

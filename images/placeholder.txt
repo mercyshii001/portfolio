@@ -1,0 +1,9 @@
+For the best results, please add the following images to this directory:
+
+1. profile.jpg - Your professional headshot or profile picture
+2. project1.jpg - Screenshot or image of your first featured project
+3. project2.jpg - Screenshot or image of your second featured project
+
+Recommended image sizes:
+- Profile image: 600x600 pixels
+- Project images: 800x600 pixels
